@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@600&family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto';
+}
+
+
+body{
+    background-size: cover;
+    
+}
+
+
+.titulo{
+    font-size: 3rem !important;
+    width: 100vw;
+    margin: 0;
+    line-height: 3;
+}
+
+
+#status, #qtd{
+    width: 60%;
+    margin: 10px;
+    font-size: 2rem !important;
+}
+
+
+canvas{
+    margin-top: 15vh;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 5px 5px 05px black;
+}
+
+.btno{
+    width: 20%;
+    border-radius: 15px;
+    border-style: none;
+    height: 4vh;
+    font-size: 2.5rem;
+    background-color:rgb(255, 0, 30);
+    transition: 1s;
+    color: white;
+}
+
+
+.btno:hover{
+    background-color: white;
+    color: red;
+}
